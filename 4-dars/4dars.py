@@ -8,12 +8,12 @@
 # my_func()
 
 
-def outer():
-    a=25
-    name="Python"
+# def outer():
+#     a=25
+#     name="Python"
     
 
-    def inner(prefix):
-        print(f"{name} is {prefix}")
+#     def inner(prefix):
+#         print(f"{name} is {prefix}")
 
-    return inner
+#     return inner

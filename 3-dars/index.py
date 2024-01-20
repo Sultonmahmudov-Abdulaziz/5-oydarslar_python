@@ -1,50 +1,31 @@
 
-my_list=[4,7,2,5,6,8,9,10,11,12,13,17,3,1]
+# my_list=[4,7,2,5,6,8,9,10,11,12,13,17,3,1]
 
 
-count=0
-def quick_sorted(list_a):
-    lenth=len(list_a)
-    global count
+# count=0
+# def quick_sorted(list_a):
+#     lenth=len(list_a)
+#     global count
 
 
-    if lenth<2:
-        return list_a
+#     if lenth<2:
+#         return list_a
     
-    else:
-        pivot=list_a.pop()
-        left_list=[]
-        right_list=[]
-        for i in list_a:
-            count=count+1
-            if pivot<i:
-                right_list.append(i)
+#     else:
+#         pivot=list_a.pop()
+#         left_list=[]
+#         right_list=[]
+#         for i in list_a:
+#             count=count+1
+#             if pivot<i:
+#                 right_list.append(i)
             
-            else:
-                left_list.append(i)
-        return quick_sorted(left_list)+[pivot]+quick_sorted(right_list)
+#             else:
+#                 left_list.append(i)
+#         return quick_sorted(left_list)+[pivot]+quick_sorted(right_list)
 
 
-print(quick_sorted(my_list),count)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# print(quick_sorted(my_list),count)
 
 
 # def buble_sorte(list_a):
