@@ -1,0 +1,171 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'dars/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="{% static  'dars/image/logo.png' %}" alt="rasm bor">
+            <ul>
+                <li><a href="{% url 'homepage' %}">Our work</a></li>
+                <li><a href="{% url 'index' %}">What  we do</a></li>
+                <li><a href="{% url 'about' %}">About us</a></li>
+                <li><a href="{% url 'contact' %}">Get in touch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>We're a multi-disciplinary design studio that helps brands thrive.</h1>
+        <div class="header-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate.
+            </p>
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+            </p>
+        </div>
+    </div>
+    <div class="cards">
+        <h2>Recent work</h2>
+        <div class="card1">
+            <img src="{% static  'dars/image/img1.png' %}" alt="rasm bor">
+            <hr>
+            <h3>Rockfront Wine</h3>
+            <p>Packaging/Digital Content/Website/</p>
+        </div>
+        <div class="card2">
+            <img src="{% static  'dars/image/img2.png' %}" alt="rasm bor" class="card2-img">
+            <hr>
+            <h3>Miami Gin</h3>
+            <p>Website/Illustration/Art Direction</p>
+        </div>
+        <div class="card3">
+            <img src="{% static  'dars/image/img3.png' %}" alt="rasm bor" class="card3-img">
+            <hr>
+            <h3>Batch Gummies</h3>
+            <p>Illustration/Visual/ Identity/</p>
+        </div>
+        <div class="card4">
+            <img src="{% static  'dars/image/img4.png' %}" alt="rasm bor" class="card4-img">
+            <hr>
+            <h3>Better Coffee Co</h3>
+            <p>Art Direction/Packaging/Illustration/</p>
+        </div>
+        <div class="card5">
+            <img src="{% static  'dars/image/img5.png' %}" alt="rasm bor" class="card5-img">
+            <hr>
+            
+        </div>
+        <div class="card6">
+            <img src="{% static  'dars/image/img6.png' %}" alt="rasm bor" class="card6-img">
+            <hr>
+            <h3>Good Skin Club</h3>
+            <p>Packaging/Art Direction/Digital Content/Illustration/</p>
+        </div>
+        
+    </div>
+    <div>
+        <img src="{% static  'dars/image/img7.png' %}" alt="rasm bor" class="img7">
+    </div>
+    <div class="box">
+        <div>
+            <h2>Built to last.
+                Always growing.</h2>
+        </div>
+        <div>
+            <hr>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            </p>
+            <div class="box-text">
+                <div>
+                    <h1>
+                        127
+                    </h1>
+                    <span>Projects done</span>
+                </div>
+                <div>
+                    <h1>
+                        24
+                    </h1>
+                    <span>Team members</span>
+                </div>
+                <div>
+                    <h1>
+                        87%
+                    </h1>
+                    <span>Chance of coffee</span>
+                </div>
+                <div>
+                    <h1>
+                        4.7
+                    </h1>
+                    <span>Average rating</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="future">
+        <section>
+            <div class="nimadr">
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum. Ut enim ad minim veniam, quis nostrud.
+                </p>
+            </div>
+            
+            <div class="future-text">
+                <div>
+                    <h3>Custom</h3>
+                    <p>
+                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                         ea commodo consequat. Duis aute irure dolor in reprehenderit i
+                         n voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+            </div>
+            <div>
+                    <h3>
+                        Beautiful
+                    </h3>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur. Excepteur sint occaecat cupidatat.
+                    </p>
+            </div>
+            </div>
+        </section>
+
+        
+        <div class="text2"> 
+            <h2>
+                8 years in,stronger than ever
+            </h2>
+            <p>
+                More about us
+            </p>   
+
+        </div>
+    </div>
+   
+</body>
+</html>
